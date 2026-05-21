@@ -1,0 +1,240 @@
+@import './../../style/variables.scss';
+
+.container {
+    padding: 0 22px 0 22px;
+    
+    h1 {
+        color: $main-color;
+        font-family: "Inter", sans-serif;
+        font-weight: 500;
+        font-size: 250px;
+        letter-spacing: -12%;
+        line-height: 100%;
+    }
+    
+    .buttons {
+        display: flex;
+        justify-content: space-between;
+        button {
+            border: none;
+            background-color: transparent;
+            font-family: "Inter", sans-serif;
+            font-weight: 500;
+            font-size: 32px;
+            color: $main-color;
+        }
+    }
+
+    .main-section {
+        position: relative;
+        padding: 0 305px 0 305px;
+
+        &__decoration {
+            display: grid;
+            grid-template-columns: repeat(14, 40px);
+            grid-template-rows: repeat(9, 77px);
+
+            div {
+                position: relative;
+
+                p {
+                    position: absolute;
+                    inset: 0;
+                    font-size: 14px;
+                    word-break: break-all;
+                    color: $main-color;
+                    width: 36px;
+                    font-family: "Inter", sans-serif;
+                    font-weight: 500;
+                }
+            }
+
+            .cell-1 {
+                // position: relative;
+                grid-area: 3/1/4/2;
+                background-color: $dark-block;
+
+                // .test {
+                //     position:absolute;
+                //     inset: 0;
+                //     width: 300px;
+                // }
+            }
+
+            .cell-2 {
+                grid-area: 2/2/3/3;
+                background-color: $dark-block;
+            }
+
+            .cell-3 {
+                grid-area: 3/2/4/3;
+                background-color: $light-block;
+            }
+
+            .cell-4 {
+                grid-area: 8/2/9/6;
+                background-color: $light-block;
+            }
+
+            .cell-5 {
+                grid-area: 3/3/4/4;
+                background-color: $dark-block;
+
+                p {
+                    left: 3px;
+                    top: 3px;
+                }
+            }
+
+            .cell-6 {
+                grid-area: 7/3/8/4;
+                background-color: $dark-block;
+            }
+
+            .cell-7 {
+                grid-area: 8/3/9/5;
+                background-color: $dark-block;
+
+                p {
+                    width: 86px;
+                    transform: translate(-25%);
+                    top: 3px;
+                }
+            }
+
+            .cell-8 {
+                grid-area: 4/4/5/5;
+                background-color: $dark-block;
+
+                // p {
+                //     top: 77px;
+                //     width: 128px;
+                // }
+            }
+
+            .cell-9 {
+                grid-area: 5/4/6/5;
+                background-color: $light-block;
+                z-index: 5;
+
+                p {
+                    width: 128px;
+                }
+            }
+
+            .cell-10 {
+                grid-area: 6/4/7/5;
+                background-color: $dark-block;
+            }
+
+            .cell-11 {
+                grid-area: 1/6/2/8;
+                background-color: $dark-block;
+                z-index: 5;
+
+                p {
+                    width: 142px;
+                    top: 20px;
+                    left: 8px;
+                }
+            }
+
+            .cell-12 {
+                grid-area: 5/5/6/6;
+                background-color: $dark-block;
+            }
+
+            .cell-13 {
+                grid-area: 9/5/10/6;
+                background-color: $dark-block;
+            }
+
+            .cell-14 {
+                grid-area: 2/5/3/6;
+                background-color: $dark-block;
+            }
+
+            .cell-15 {
+                grid-area: 2/7/3/8;
+                background-color: $dark-block;
+            }
+
+            .cell-16 {
+                grid-area: 3/7/4/8;
+                background-color: $light-block;
+            }
+
+            .cell-17 {
+                grid-area: 5/7/6/8;
+                background-color: $dark-block;
+            }
+
+            .cell-18 {
+                grid-area: 8/7/9/8;
+                background-color: $dark-block;
+            }
+
+            .cell-19 {
+                grid-area: 2/10/3/11;
+                background-color: $dark-block;
+
+                p {
+                    width: 60px;
+                }
+            }
+
+            .cell-20 {
+                grid-area: 3/13/4/14;
+                background-color: $dark-block;
+
+                p {
+                    width: 50px;
+                }
+            }
+
+            .cell-21 {
+                grid-area: 8/12/9/13;
+                background-color: $light-block;
+            }
+
+            .cell-22 {
+                grid-area: 7/13/8/14;
+                background-color: $dark-block;
+
+                p {
+                    width: 32px;
+                }
+            }
+
+            .cell-23 {
+                grid-area: 2/14/3/15;
+                background-color: $dark-block;
+            }
+        }
+
+        &__info {
+
+            h2 {
+                font-size: 170px;
+                color: $main-color;
+                font-family: "Inter", sans-serif;
+                font-weight: 500;
+                position: absolute;
+                top: 8%;
+                left: 11%;
+                z-index: 5;
+            }
+
+            p {
+                font-family: "Inter", sans-serif;
+                font-weight: 500;
+                font-size: 24px;
+                position: absolute;
+                top: 42%;
+                left: 30%;
+                z-index: 5;
+                max-width: 968px;
+            }
+        }
+    }
+}
