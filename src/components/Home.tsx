@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Home.css";
-import bg1 from "../../photos/background1.png";
+import bg1 from "../../photos/human at core/background1.png";
 import { motion } from "motion/react";
 
 const Square = () => {
