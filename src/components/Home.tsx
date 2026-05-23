@@ -1,8 +1,6 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef  } from "react";
 import "./Home.css";
-import bg1 from "../../photos/human at core/background1.png";
 import { motion } from "motion/react";
-
 const Square = () => {
   const [revealed, setRevealed] = useState(false);
 
@@ -12,7 +10,7 @@ const Square = () => {
       animate={{ backgroundColor: revealed ? "transparent" : "white" }}
       transition={{ duration: revealed ? 0.2 : 1 }}
       onHoverStart={() => setRevealed(true)}
-      onHoverEnd={() => setTimeout(() => setRevealed(false), 10000)}
+      onHoverEnd={() => setTimeout(() => setRevealed(false), 20000)}
     />
   );
 };
@@ -20,7 +18,22 @@ const Square = () => {
 function Home() {
   const cols = 60;
   const rows = 20;
+  const hasRun = useRef(false);
+  const [bgImageIndex, setBgImageIndex] = useState(0);
 
+
+  const RandomNumber = () => {
+  const imgIndex = Math.floor(Math.random() * 10) + 1;
+  setBgImageIndex(imgIndex);
+};
+
+  useEffect(() => {
+    if (hasRun.current) return;
+
+    hasRun.current = true;
+    RandomNumber();
+  }, []);
+  
   return (
     <div className="home">
       <div className="image-blob">
@@ -29,7 +42,7 @@ function Home() {
             <Square key={i} />
           ))}
         </div>
-        <img src={bg1} alt="BG1" className="hero-image" />
+        <img src={`../../photos/human at core/background${bgImageIndex}.png`} alt="BG1" className="hero-image" />
       </div>
       <div className="information-container">
         <div className="information-left">
