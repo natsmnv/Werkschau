@@ -1,0 +1,68 @@
+.dark-square {
+  width: 1%;
+  height: 15vh;
+  background-color: rgb(184, 181, 170);
+  display: inline-block;
+}
+
+.light-square {
+  width: 1%;
+  height: 15vh;
+  background-color: rgb(223, 222, 217);
+  display: inline-block;
+}
+
+.hour {
+  color: black;
+  font-size: 2rem;
+  margin-bottom: -10%;
+}
+
+.project {
+  display: flex;
+  justify-content: center;
+  /* control of how much in the center the project should be*/
+  margin-left: 20%; 
+}
+.project-text {
+  margin-left: -3%;
+  margin-bottom: 3%;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* .project {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+} */
+
+/* stack squares vertically */
+/* .blocks-column {
+  display: flex;
+  flex-direction: column;
+} */
+
+/* make squares consistent */
+/* .dark-square,
+.light-square {
+  width: 10px;   
+  height: 10px;
+} */
+
+/* text stacked */
+/* .project-info {
+  display: flex;
+  flex-direction: column;
+} */
+
+/* .hour {
+  margin: 0;
+  font-size: 2rem;
+  color: black;
+} */
+
+/* .project p {
+  margin: 0;
+  color: red;
+}  */

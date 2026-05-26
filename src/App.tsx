@@ -1,8 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./components/Home";
-import Navbar from "./components/navbar";
-import Test from "./components/Test_";
+import Navbar from "./components/Navbar";
+import Timetable from "./components/Timetable";
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
           <Route path="/" element={<Home />} />
            <Route
             path="/timetable"
-            element={<Test/>}
+            element={<Timetable/>}
           />
         </Routes>
       </Router>
