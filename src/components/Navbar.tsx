@@ -15,11 +15,11 @@ function NavBar() {
         <NavLink className="nav-items" to="/timetable">
           timetable
         </NavLink>
-        {/*
-        <NavLink to="/projects" exact>
-          projects
+        
+        <NavLink className="nav-items" to="/about">
+          about
         </NavLink>
-
+{/*
         <NavLink to="/projects" exact>
           about
         </NavLink> */}

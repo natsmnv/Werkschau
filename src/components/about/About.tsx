@@ -3,13 +3,6 @@ import './about.scss';
 export default function About() {
     return (
         <div className='container'>
-            <h1>WERKSCHAU 2026</h1>
-            <div className="buttons">
-                <button>home</button>
-                <button>timetable</button>
-                <button>projects</button>
-                <button>about</button>
-            </div>
             <div className="main-section">
                 <div className="main-section__decoration">
                     <div className="cell-1">
