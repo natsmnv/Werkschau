@@ -136,7 +136,7 @@ function Timetable() {
         <div className="project-text">
           <p className="hour">{project.time}</p>
 
-          <p>
+          <p className="description">
             {project.text.split("\n").map((line, i) => (
               <React.Fragment key={i}>
                 {line}
