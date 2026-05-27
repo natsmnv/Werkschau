@@ -1,0 +1,190 @@
+@import "./../../style/variables.scss";
+
+.container {
+  padding: 20px 22px;
+  height: 100vh;
+  overflow: hidden;
+  background: #f5f5f5;
+
+  h1 {
+    color: $main-color;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: clamp(3rem, 9vw, 9rem);
+    line-height: 1;
+    letter-spacing: -0.05em;
+    margin-bottom: 2rem;
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+
+    button {
+      border: none;
+      background: transparent;
+      font-family: "Inter", sans-serif;
+      font-weight: 500;
+      font-size: clamp(1rem, 1.8vw, 2rem);
+      color: $main-color;
+      cursor: pointer;
+    }
+  }
+
+  .main-section {
+    position: relative;
+    height: calc(100vh - 220px);
+    overflow: hidden;
+
+    &__decoration {
+      position: absolute;
+      top: 5%;
+      left: 5%;
+      display: grid;
+      grid-template-columns: repeat(14, clamp(18px, 2.4vw, 42px));
+      grid-template-rows: repeat(9, clamp(35px, 5vw, 70px));
+      z-index: 1;
+      opacity: 0.9;
+
+      div {
+        position: relative;
+
+        p {
+          position: absolute;
+          inset: 0;
+          font-size: 8px;
+          line-height: 1.1;
+          color: $main-color;
+          font-family: "Inter", sans-serif;
+          font-weight: 500;
+          word-break: break-word;
+        }
+      }
+
+      .cell-1 { grid-area: 3/1/4/2; background: $dark-block; }
+      .cell-2 { grid-area: 2/2/3/3; background: $dark-block; }
+      .cell-3 { grid-area: 3/2/4/3; background: $light-block; }
+      .cell-4 { grid-area: 8/2/9/6; background: $light-block; }
+      .cell-5 { grid-area: 3/3/4/4; background: $dark-block; }
+      .cell-6 { grid-area: 7/3/8/4; background: $dark-block; }
+      .cell-7 { grid-area: 8/3/9/5; background: $dark-block; }
+      .cell-8 { grid-area: 4/4/5/5; background: $dark-block; }
+      .cell-9 { grid-area: 5/4/6/5; background: $light-block; }
+      .cell-10 { grid-area: 6/4/7/5; background: $dark-block; }
+      .cell-11 { grid-area: 1/6/2/8; background: $dark-block; }
+      .cell-12 { grid-area: 5/5/6/6; background: $dark-block; }
+      .cell-13 { grid-area: 9/5/10/6; background: $dark-block; }
+      .cell-14 { grid-area: 2/5/3/6; background: $dark-block; }
+      .cell-15 { grid-area: 2/7/3/8; background: $dark-block; }
+      .cell-16 { grid-area: 3/7/4/8; background: $light-block; }
+      .cell-17 { grid-area: 5/7/6/8; background: $dark-block; }
+      .cell-18 { grid-area: 8/7/9/8; background: $dark-block; }
+      .cell-19 { grid-area: 2/10/3/11; background: $dark-block; }
+      .cell-20 { grid-area: 3/13/4/14; background: $dark-block; }
+      .cell-21 { grid-area: 8/12/9/13; background: $light-block; }
+      .cell-22 { grid-area: 7/13/8/14; background: $dark-block; }
+      .cell-23 { grid-area: 2/14/3/15; background: $dark-block; }
+    }
+
+    &__info {
+      position: relative;
+      z-index: 5;
+
+      h2 {
+        position: absolute;
+        top: 0;
+        left: 8%;
+        font-size: clamp(4rem, 10vw, 9rem);
+        line-height: 0.9;
+        color: $main-color;
+        font-family: "Inter", sans-serif;
+        font-weight: 500;
+      }
+
+      p {
+        position: absolute;
+        top: 10rem;
+        left: 42%;
+        width: min(500px, 42vw);
+
+        font-family: "Inter", sans-serif;
+        font-size: clamp(0.9rem, 1.2vw, 1.25rem);
+        font-weight: 500;
+        line-height: 1.45;
+        color: #111;
+      }
+    }
+  }
+}
+
+/* TABLET */
+@media (max-width: 1024px) {
+  .container {
+    .main-section {
+      height: calc(100vh - 180px);
+
+      &__info {
+        p {
+          left: 48%;
+          width: 40vw;
+          top: 8rem;
+        }
+      }
+    }
+  }
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .container {
+    padding: 16px;
+
+    h1 {
+      font-size: clamp(2.5rem, 8vw, 4rem);
+      margin-bottom: 1rem;
+    }
+
+    .buttons {
+      justify-content: space-between;
+      gap: 0.5rem;
+
+      button {
+        font-size: 0.9rem;
+      }
+    }
+
+    .main-section {
+      height: calc(100vh - 160px);
+
+      &__decoration {
+        transform: scale(0.7);
+        transform-origin: top left;
+        left: -5%;
+        top: 5%;
+      }
+
+      &__info {
+        h2 {
+          position: absolute;
+          top: 0;
+          left: 4%;
+          font-size: clamp(3rem, 14vw, 5rem);
+          line-height: 0.9;
+          text-align: left;
+        }
+
+        p {
+          position: absolute;
+          top: 5rem;
+          left: 48%;
+          width: 45%;
+
+          font-size: 0.72rem;
+          line-height: 1.35;
+          text-align: left;
+        }
+      }
+    }
+  }
+}
