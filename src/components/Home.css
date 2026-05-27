@@ -21,8 +21,8 @@
 
 .squares-grid {
   display: grid;
-  grid-template-columns: repeat(60, 10fr); /* adjust cols */
-  grid-template-rows: repeat(20, 10fr);     /* adjust rows */
+  grid-template-columns: repeat(60, 10fr);
+  grid-template-rows: repeat(20, 10fr);
   width: 100%;
   height: 100%;
   z-index: 1;
@@ -31,10 +31,6 @@
 .square {
   background-color: rgb(255, 255, 255);
   aspect-ratio: 90%;
-}
-
-.square:hover {
-  background-color: transparent;
 }
 
 .information-container {
@@ -60,10 +56,8 @@
   font-size: 2rem;
 }
 
-
 /* MOBILE */
 @media only screen and (max-width: 600px) {
-
   .hero-image {
     width: 95%;
     height: 45vh;
