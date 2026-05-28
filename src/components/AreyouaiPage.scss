@@ -1,0 +1,53 @@
+.areyouaipage-section {
+    padding: 149px 12px 194px 12px;
+    text-align: center;
+
+    &__title {
+        font-family: "Inter", sans-serif;
+        font-weight: 500;
+        font-size: 96px;
+        line-height: 100%;
+        text-transform: uppercase;
+        margin-bottom: -50px;
+        z-index: 5;
+        position: relative;
+    }
+
+    &__video {
+        max-width: 800px;
+        margin: 0 auto;
+
+        video {
+            width: 100%;
+        }
+    }
+}
+
+@media all and (max-width: 1024px) {
+    .areyouaipage-section {
+
+        &__title {
+            font-size: 60px;
+            margin-bottom: -30px;
+        }
+    }
+}
+
+@media all and (max-width: 768px) {
+    .areyouaipage-section {
+        padding: 117px 12px 194px 12px;
+
+        &__title {
+            font-size: 32px;
+            margin-bottom: -20px;
+        }
+
+        &__video {
+            max-width: 400px;
+            margin: 0 auto;
+            video {
+                width: 100%;
+            }
+        }
+    }
+}

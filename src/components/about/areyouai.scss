@@ -1,0 +1,53 @@
+.areyouai-section {
+    background-color: rgba(39, 50, 34, 1);
+    padding: 567px 34px;
+    text-align: center;
+
+    h2 {
+        font-family: "Inter", sans-serif;
+        font-weight: 500;
+        font-size: 64px;
+        color: rgba(255, 255, 255, 1);
+        line-height: 100%;
+        margin-bottom: 39px;
+    }
+
+    button {
+        font-family: "Inter", sans-serif;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 100%;
+        padding: 29px 73px;
+        background-color: rgba(255, 255, 255, 1);
+        border: none;
+        cursor: pointer;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .areyouai-section {
+        padding: 287px 34px;
+
+        h2 {
+            font-size: 40px;
+            margin-bottom: 19px;
+        }
+
+        button {
+            padding: 16px 23px;
+        }
+    }
+}
+
+@media all and (max-width: 768px) {
+    .areyouai-section {
+
+        h2 {
+            font-size: 20px;
+        }
+
+        button {
+            font-size: 14px;
+        }
+    }
+}
