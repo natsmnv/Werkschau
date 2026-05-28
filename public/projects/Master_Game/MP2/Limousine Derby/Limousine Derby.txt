@@ -1,0 +1,6 @@
+Limousine Derby is a local Multiplayer Game for up to four Players. In Limousine Derby up to four Players can measure themself against each other in epic arena matches to find out who amongst them is the best driver. Each match is an epic showdown against your friends. Not only does one need to be a better driver than the others he also needs to have a better awareness of his surroundings, as each arena is filled with different hazards. Some of these hazards deal damage to the players’ vehicles, others mess with their controls by eighter speeding them up or slowing them down. In addition to that every few seconds spawn different Power Ups inside the arena. These Power Ups range from Health Restoration to Nitro Restoration and short Invincibility. A few of those power ups can also be saved by the player so they also need to strategize when to take the power ups which they had collected. All these things make every single match unique and special so that the players can keep on playing and having fun.
+
+Personen:
+
+Luka Stojkovic
+Alexander Müller

@@ -1,0 +1,1 @@
+TrailSenseTracking Visitor Flows on Hiking TrailsTrailSense is a project where we built a simple system to measure how many people use a hiking trail. The goal was to find a low-cost and privacy-friendly way to better understand visitor flows in outdoor areas.Felix BeerFrancesco Lanthaler

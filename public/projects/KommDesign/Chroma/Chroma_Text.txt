@@ -1,0 +1,9 @@
+ChromaChroma is an immersive audiovisual VR experience exploring color
+perception. Through a customizable virtual environment, users can
+shape how a specific color feels to them visually and acoustically
+by adjusting a range of sensory parameters. Within the installation,
+participants can also experience how other users perceive the same
+color, creating a direct comparison between different individual inter-
+pretations. By making subjective perception tangible, Chroma high-
+lights the diversity of human perception and encourages reflection
+on how differently people can experience the same „reality“.Laurenz WeingartManuel KöckJohanna Sophia VorbauMagda Sophie WurmJonas Gerhard Johann Bolz

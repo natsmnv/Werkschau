@@ -1,0 +1,23 @@
+Description
+This master project began as a space for experimentation and evolved into a fully realized studio project under the CrossDot identity. Instead of producing a single film or filler shots for a showreel, we created eight original, fully realized animation pieces spanning advertising, music videos, and short-form storytelling.
+
+ 
+Many of the pieces started as small tests, showerthoughts, or rough previz ideas and were gradually developed into polished audiovisual works that we are truly proud of. Each piece functions as a self-contained experiment, exploring new styles, visual languages, pipelines, and technical challenges, while continuously refining our skills, workflows, and creative approach.
+
+ 
+What initially began as separate, individual experiments soon became a collaborative team effort within a shared pipeline. By combining our strengths and learning from each other, we worked more efficiently with each iteration, producing pieces that vary widely in style, theme, and format while maintaining cohesion.
+
+ 
+The website and music for the showreel were developed with talented collaborators, including Johannes Handlechner and Philipp Schinwald, whose contributions were essential in presenting the projects exactly as intended.
+
+ 
+This project represents months of exploration, iteration, and creative risk, and stands as a concise yet comprehensive showcase of technical growth, collaboration, and creative development.
+
+
+
+Personen:
+
+Jona Melvin Grobe
+Hannah Rampitsch
+Johannes Handlechner
+Philipp Schinwald

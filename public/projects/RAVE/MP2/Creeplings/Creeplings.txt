@@ -1,0 +1,9 @@
+“Creeplings” is a horror shortfilm in which the main character, Susan, is haunted by creepy creatures. Their origin remains a mystery, but their presence is permanent. In the end, one of them manages to touch Susan, turning her into one of their own. 
+The film was made using Unreal Engine 5.6. My biggest problems came with lighting, consistency, and color grading, for which I did not allocate enough time.
+
+
+Personen:
+Jakob Christensen
+Fabian Franz Bernhard Holzer
+Kilian Konz
+Hannah Rampitsch

@@ -15,6 +15,10 @@ function NavBar() {
         <NavLink className="nav-items" to="/timetable">
           timetable
         </NavLink>
+
+        <NavLink className="nav-items" to="/projects">
+          projects
+        </NavLink>
         
         <NavLink className="nav-items" to="/about">
           about
