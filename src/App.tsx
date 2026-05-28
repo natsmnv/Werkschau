@@ -6,8 +6,8 @@ import Timetable from "./components/Timetable";
 import About from "./components/about/About";
 import Projects from "./components/Projects";
 import ProjectDetail from "./components/ProjectDetail";
-import Areyouai from "./components/about/Areyouai";
 import AreyouaiPage from "./components/AreyouaiPage";
+import Imprint from "./components/Imprint";
 
 function App() {
   return (
@@ -35,6 +35,10 @@ function App() {
           <Route
             path="/areyouaipage"
             element={<AreyouaiPage />}
+          />
+          <Route
+            path="/imprint"
+            element={<Imprint />}
           />
         </Routes>
       </Router>
