@@ -1,0 +1,13 @@
+Overview: In this master project, I am creating meditative music for use during surgery at the Hospital Hallein. The goal is to produce around 20 original pieces that help patients and medical staff stay calm and focused in the operating room.
+
+Concept: Each composition will have three versions: • 30-second version: for short previews. • 15-minute version: to be played before the operation to help patients relax. • 45-minute version: for use during awake surgeries („Wach-OPs“). The music will include relaxing elements such as special frequencies, gentle rhythms, and soft sounds that can reduce stress and support a peaceful atmosphere. I will do some research to know the elements, that should have a relaxing feeling.
+
+Technical Implementation: To use the music in the operating room, a special device is currently being certified for medical use. Only certified devices are allowed in the operating area. The music will be played through headphones connected to this device, which contains the audio files on a data carrier.
+
+Next Steps: After the music is completed, a study is planned at Hospital Hallein to find out how the music influences patients and medical staff during operations.
+
+Goal: The project combines art and science to show how sound can support healing, create calm, and make medical environments more human and mindful.
+
+
+Personen:
+Philipp Schinwald

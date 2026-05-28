@@ -1,0 +1,17 @@
+Project Description:
+Echo Room is a story-driven mystery puzzle game built in Unreal Engine 5.6 that takes place within two versions of the same room. The player moves between them by stepping through a mirror, switching from one space to its mirrored counterpart. 
+
+The core interaction revolves around picking up, inspecting, and sorting objects. Items can be examined closely to reveal symbols and figure out the part they play in solving a puzzle. By listening closely to the main character voicing their inner monologue out loud, players can identify an item’s place in the game world and its purpose in one of the various puzzles. Sorting objects into the correct places gradually uncovers the underlying connection between the mirrored spaces. 
+
+The narrative is conveyed through environmental clues and the narrated inner monologue of the main character. Lighting, sound, and object states shift between the two rooms, encouraging players to explore and interpret the relationship between them. Because the entire experience is contained within a single mirrored environment, the focus remains on careful observation and the slow accumulation of clues. The result is a small-scale exploration of duality, memory, and perspective, built around the simple act of unboxing after moving into a new apartment. 
+
+
+Personen:
+
+Adelheid Eisl
+Jana Ina-Maria Schimak
+Christina Zwinger
+Piet Josef Koller
+Mara Daliah Schmid
+Shayan Fritz Horbank
+Lena Marein Ochmann

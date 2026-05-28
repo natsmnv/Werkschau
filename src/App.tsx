@@ -4,6 +4,8 @@ import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import Timetable from "./components/Timetable";
 import About from "./components/about/About";
+import Projects from "./components/Projects";
+import ProjectDetail from "./components/ProjectDetail";
 
 function App() {
   return (
@@ -12,13 +14,21 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-           <Route
+          <Route
             path="/timetable"
-            element={<Timetable/>}
+            element={<Timetable />}
+          />
+          <Route
+            path="/projects"
+            element={<Projects />}
+          />
+          <Route
+            path="/projects/:slug"
+            element={<ProjectDetail />}
           />
           <Route
             path="/about"
-            element={<About/>}
+            element={<About />}
           />
         </Routes>
       </Router>

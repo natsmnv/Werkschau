@@ -1,0 +1,9 @@
+A third-person exploration game where the player travels through a desolate post-apocalyptic world on a hoverboard. They explore the world, interact with the environment, and collect resources to complete quests, upgrade their hoverboard, progress to new areas, and gather new information about the world.
+
+
+Personen:
+
+Sonia Steiner
+Benedikt Dietinger
+Lukas Wirth
+Darius Göllner
