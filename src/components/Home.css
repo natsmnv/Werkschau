@@ -58,6 +58,16 @@
 .footer-links {
   display: flex;
   justify-content: space-between;
+  font-family: "Inter", sans-serif;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #ff0000;
+}
+
+.footer-links a:hover {
+  color: #fb9999;
 }
 
 /* MOBILE */
