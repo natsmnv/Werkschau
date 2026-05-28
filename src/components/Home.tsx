@@ -76,11 +76,11 @@ function Home() {
           </p>
         </div>
 
-        <div className="information-right">
+        {/* <div className="information-right">
           <p className="information-right-location">LOCATION</p>
           <p>FH Salzburg</p>
           <p>Urstein S 1, 5412 Puch</p>
-        </div>
+        </div> */}
       </div>
     </div>
   );

@@ -49,11 +49,15 @@
 .information-right {
   text-align: right;
   line-height: 0.1;
-  margin-right: -7%;
 }
 
 .information-right-location {
   font-size: 2rem;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
 }
 
 /* MOBILE */

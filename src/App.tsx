@@ -6,6 +6,7 @@ import Timetable from "./components/Timetable";
 import About from "./components/about/About";
 import Projects from "./components/Projects";
 import ProjectDetail from "./components/ProjectDetail";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
           />
         </Routes>
       </Router>
+      <Footer/>
     </div>
   );
 }
