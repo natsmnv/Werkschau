@@ -1,5 +1,6 @@
 import "./Home.css";
 import { LuSquareArrowOutUpRight } from "react-icons/lu";
+import { FaInstagram, FaLinkedin } from "react-icons/fa";
 
 function Footer() {
     return (
@@ -18,7 +19,13 @@ function Footer() {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    instagram <LuSquareArrowOutUpRight />
+                    <span className="desktop-text">
+                        instagram <LuSquareArrowOutUpRight />
+                    </span>
+
+                    <span className="mobile-icon">
+                        <FaInstagram />
+                    </span>
                 </a>
 
                 <a
@@ -26,7 +33,13 @@ function Footer() {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    linkedin <LuSquareArrowOutUpRight />
+                    <span className="desktop-text">
+                        linkedin <LuSquareArrowOutUpRight />
+                    </span>
+
+                    <span className="mobile-icon">
+                        <FaLinkedin />
+                    </span>
                 </a>
 
                 <a
