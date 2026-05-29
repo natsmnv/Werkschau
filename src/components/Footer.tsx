@@ -1,11 +1,11 @@
-import "./Home.css";
+import "./Footer.css";
 import { LuSquareArrowOutUpRight } from "react-icons/lu";
 import { FaInstagram, FaLinkedin } from "react-icons/fa";
 
 function Footer() {
     return (
         <div>
-            <div className="home">
+            <div className="footer-container">
                 <div className="information-right">
                     <p className="information-right-location">LOCATION</p>
                     <p>FH Salzburg</p>

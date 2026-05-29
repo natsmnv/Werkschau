@@ -12,39 +12,25 @@ import Imprint from "./components/Imprint";
 
 function App() {
   return (
-    <div>
-      <Router>
+    <Router>
+      <div className="app-layout">
         <Navbar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route
-            path="/timetable"
-            element={<Timetable />}
-          />
-          <Route
-            path="/projects"
-            element={<Projects />}
-          />
-          <Route
-            path="/projects/:slug"
-            element={<ProjectDetail />}
-          />
-          <Route
-            path="/about"
-            element={<About />}
-          />
-          <Route
-            path="/areyouaipage"
-            element={<AreyouaiPage />}
-          />
-          <Route
-            path="/imprint"
-            element={<Imprint />}
-          />
-        </Routes>
-      </Router>
-      <Footer/>
-    </div>
+
+        <main className="page-content">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/timetable" element={<Timetable />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/projects/:slug" element={<ProjectDetail />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/areyouaipage" element={<AreyouaiPage />} />
+            <Route path="/imprint" element={<Imprint />} />
+          </Routes>
+        </main>
+
+        <Footer />
+      </div>
+    </Router>
   );
 }
 
