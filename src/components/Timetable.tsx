@@ -12,85 +12,97 @@ function Timetable() {
       text: "Opening \n Werkschau \n (Audimax)",
     },
     {
-      time: "17:00-21:00",
-      text: "Ausstellung Games \n Ausstellung \n Kommunikationsdesign",
+      time: "17:00",
+      text: "Exhibition Games",
     },
     {
-      time: "17:30",
-      text: "Performance \n Audio",
+      time: "17:00",
+      text: "Exhibition \n Communication \n Design",
     },
     {
-      time: "18:00",
-      text: "Screening \n Animation",
+      time: "17:00",
+      text: "Exhibition \n Producing and \n Animation",
     },
     {
-      time: "18:30",
-      text: "Performance \n Audio",
+      time: "17:00",
+      text: "Animation \n Realtime Art & \n Visual Effects",
     },
     {
-      time: "19:00",
-      text: "Screening Buhle + \n Film Highlights",
+      time: "17:00-19:00",
+      text: "Audio-Play \n Schicht im Schacht",
     },
     {
-      time: "20:00",
-      text: "Performance \n Audio",
+      time: "18:45",
+      text: "Premiere \n Animation \n Showreel",
     },
     {
-      time: "20:30",
-      text: "Filmscreening oder \n Audio Performance",
+      time: "19:15",
+      text: "Special \n Preview Buhle",
+    },
+    {
+      time: "20:00-22:00",
+      text: "Audio \n Performance",
     },
   ];
 
   const projects2 = [
     {
       time: "09:00-10:00",
-      text: "Web & Mobile Expo",
+      text: "Web- and \n Mobile Demo",
     },
     {
       time: "09:00-19:00",
-      text: "Ausstellung \n Kommunikationsdesign",
+      text: "Exhibition \n Communication \n Design",
+    },
+    {
+      time: "09:00-19:00",
+      text: "Exhibition \n Games",
+    },
+    {
+      time: "09:00-19:00",
+      text: "Exhibition Producing \n and Animation",
+    },
+    {
+      time: "10:00-12:00",
+      text: "Audio-Play \n Schicht im Schacht",
     },
     {
       time: "10:00-12:30",
-      text: "Präsentation \n Web BA",
+      text: "Presentation \n Webprojects",
     },
     {
       time: "13:00-13:30",
-      text: "Web & Mobile \n Expo",
+      text: "Web- and \n Mobile Demo",
     },
     {
       time: "13:00-16:00",
-      text: "Ausstellung HCI \n Prototypen",
+      text: "Ausstellung \n HCI-Prototypen",
     },
     {
       time: "13:30-17:00",
-      text: "Präsentation \n Web MA",
+      text: "Presentation \n Webprojects",
     },
     {
-      time: "14:00-21:00",
-      text: "Film- und \n Animationsscreenings \n (Audimax)",
+      time: "17:00",
+      text: "Film- and Animation \n Screenings",
     },
     {
-      time: "14:00-19:00",
-      text: "Ausstellung \n Game",
-    },
-    {
-      time: "20:00-22:30",
-      text: "Performance Audio",
+      time: "20:00-21:35",
+      text: "Audio \n Performances",
     },
   ];
 
   const projects3 = [
     {
+      time: "16:00-18:00",
+      text: "Audio-Play \n Schicht im Schacht",
+    },
+    {
       time: "18:00",
-      text: "Audioperformances",
+      text: "Best of Sports \n and Music Videos",
     },
     {
-      time: "19:00",
-      text: "Filmscreening",
-    },
-    {
-      time: "20:00-22:30",
+      time: "20:00-21:40",
       text: "Performances Audio",
     },
   ];
