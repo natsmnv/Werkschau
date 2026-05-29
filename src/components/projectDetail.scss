@@ -172,7 +172,8 @@
             margin-bottom: 15px;
 
             .text{
-                max-width: 300px;
+                max-width: 100%;
+                width: 100%;
 
                 &__title {
                     font-size: 40px;
@@ -189,8 +190,9 @@
             }
 
             &--img {
-                width: 195px;
-                height: 229px;
+                width: 100%;
+                max-width: 220px;
+                height: auto;
             }
         }
 

@@ -11,6 +11,16 @@ export default function Projects() {
         (project) => project.category === activeCategory
     );
 
+    function highlightLink(e) {
+        const links = document.querySelectorAll('.projects-section__tabs button');
+        links.forEach(link => {
+            link.classList.remove('highlight');
+            if (link.innerHTML == e.target.innerHTML) {
+                link.classList.add('highlight');
+            }
+        })
+    }
+
     return (
         <div className="projects-section">
             <div className="projects-section__wrap">
@@ -29,15 +39,15 @@ export default function Projects() {
                     }}><IoIosArrowUp color='white' className='arrow' />FILTER</button>
                 </div>
                 <div className="projects-section__tabs">
-                    <button className="projects-section__tabs--link hide" onClick={() => {setActiveCategory('3D')}}>3D</button>
-                    <button className="projects-section__tabs--link hide" onClick={() => {setActiveCategory('AUDIO')}}>AUDIO</button>
-                    <button className="projects-section__tabs--link hide" onClick={() => {setActiveCategory('FILM')}}>FILM</button>
-                    <button className="projects-section__tabs--link hide" onClick={() => {setActiveCategory('COMMUNICATIONDESIGN')}}>COMMUNICATIONDESIGN</button>
-                    <button className="projects-section__tabs--link hide" onClick={() => {setActiveCategory('WEB')}}>WEB</button>
-                    <button className="projects-section__tabs--link hide" onClick={() => {setActiveCategory('GAME')}}>GAME</button>
-                    <button className="projects-section__tabs--link hide" onClick={() => {setActiveCategory('HCI')}}>HCI</button>
-                    <button className="projects-section__tabs--link hide" onClick={() => {setActiveCategory('PRODUCING')}}>PRODUCING</button>
-                    <button className="projects-section__tabs--link hide" onClick={() => {setActiveCategory('RAVE')}}>RAVE</button>
+                    <button className="projects-section__tabs--link hide highlight" onClick={(e) => {setActiveCategory('3D'); highlightLink(e);}}>3D</button>
+                    <button className="projects-section__tabs--link hide" onClick={(e) => {setActiveCategory('AUDIO'); highlightLink(e);}}>AUDIO</button>
+                    <button className="projects-section__tabs--link hide" onClick={(e) => {setActiveCategory('FILM'); highlightLink(e);}}>FILM</button>
+                    <button className="projects-section__tabs--link hide" onClick={(e) => {setActiveCategory('COMMUNICATIONDESIGN'); highlightLink(e);}}>COMMUNICATIONDESIGN</button>
+                    <button className="projects-section__tabs--link hide" onClick={(e) => {setActiveCategory('WEB'); highlightLink(e);}}>WEB</button>
+                    <button className="projects-section__tabs--link hide" onClick={(e) => {setActiveCategory('GAME'); highlightLink(e);}}>GAME</button>
+                    <button className="projects-section__tabs--link hide" onClick={(e) => {setActiveCategory('HCI'); highlightLink(e);}}>HCI</button>
+                    <button className="projects-section__tabs--link hide" onClick={(e) => {setActiveCategory('PRODUCING'); highlightLink(e);}}>PRODUCING</button>
+                    <button className="projects-section__tabs--link hide" onClick={(e) => {setActiveCategory('RAVE'); highlightLink(e);}}>RAVE</button>
                 </div>
             </div>
             <div className="projects-section__cards">
