@@ -180,6 +180,11 @@ function Timetable() {
           <p className="dateInfo">03.JUNI</p>
         </div>
       </div>
+      <div className="moreInfos">
+        <p>more infos</p>
+        <p>↓</p>
+      </div>
+
     </div>
   );
 }

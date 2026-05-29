@@ -101,6 +101,17 @@
   font-size: 3rem;
 }
 
+.moreInfos {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  gap: 4px;
+}
+
+.moreInfos p {
+  margin: 0;
+}
 /* MOBILE */
 
 @media only screen and (max-width: 850px) {
